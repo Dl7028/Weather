@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_city_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cn.eoe.app.ui.CitySearchActivity">
+    <SearchView
+        android:id="@+id/city_search_sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="搜索国内城市"
+        />
+
+    <Button
+        android:id="@+id/location_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="定位"
+        android:background="@drawable/layer_list_view"
+        android:textSize="15dp"
+        android:layout_below="@+id/hot_city_tv"
+         />
+
+    <TextView
+        android:id="@+id/hot_city_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="热门城市"
+        android:layout_marginTop="21dp"
+
+        android:layout_below="@+id/city_search_sv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/fuzhou_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="福州"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_alignTop="@+id/changsha_bt"
+        android:layout_alignLeft="@+id/nanjing_bt"
+        android:layout_alignStart="@+id/nanjing_bt" />
+
+    <Button
+        android:id="@+id/hangzhou_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="杭州"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_alignBottom="@+id/fuzhou_bt"
+        android:layout_alignLeft="@+id/suzhou_bt"
+        android:layout_alignStart="@+id/suzhou_bt" />
+
+    <Button
+        android:id="@+id/wuhan_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="武汉"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_alignTop="@+id/hangzhou_bt"
+        android:layout_alignLeft="@+id/xiamen_bt"
+        android:layout_alignStart="@+id/xiamen_bt" />
+
+    <Button
+        android:id="@+id/tianjin_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="天津"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_below="@+id/xian_bt"
+        android:layout_alignLeft="@+id/taiyuan_bt"
+        android:layout_alignStart="@+id/taiyuan_bt" />
+
+    <Button
+        android:id="@+id/shenyang_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="沈阳"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_below="@+id/xian_bt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/beijing_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="北京"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_above="@+id/foshang_bt"
+        android:layout_toRightOf="@+id/location_bt"
+        android:layout_toEndOf="@+id/location_bt" />
+
+    <Button
+        android:id="@+id/shanghai_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="上海"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_below="@+id/hot_city_tv"
+        android:layout_toRightOf="@+id/beijing_bt"
+        android:layout_toEndOf="@+id/beijing_bt" />
+
+    <Button
+        android:id="@+id/guangzhou_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="广州"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_below="@+id/hot_city_tv"
+        android:layout_toRightOf="@+id/shanghai_bt"
+        android:layout_toEndOf="@+id/shanghai_bt" />
+
+    <Button
+        android:id="@+id/shenzhen_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="深圳"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_below="@+id/hot_city_tv"
+        android:layout_toRightOf="@+id/guangzhou_bt"
+        android:layout_toEndOf="@+id/guangzhou_bt" />
+
+    <Button
+        android:id="@+id/zhuhai_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="珠海"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_above="@+id/changsha_bt"
+        android:layout_toRightOf="@+id/foshang_bt"
+        android:layout_toEndOf="@+id/foshang_bt" />
+
+    <Button
+    android:id="@+id/nanjing_bt"
+    android:layout_width="55dp"
+    android:layout_height="40dp"
+    android:text="南京"
+    android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_above="@+id/changsha_bt"
+        android:layout_toRightOf="@+id/zhuhai_bt"
+        android:layout_toEndOf="@+id/zhuhai_bt" />
+
+    <Button
+        android:id="@+id/suzhou_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="苏州"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_alignBottom="@+id/nanjing_bt"
+        android:layout_toRightOf="@+id/nanjing_bt"
+        android:layout_toEndOf="@+id/nanjing_bt"
+        android:layout_alignTop="@+id/nanjing_bt" />
+
+    <Button
+        android:id="@+id/xiamen_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="厦门"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_toRightOf="@+id/suzhou_bt"
+        android:layout_toEndOf="@+id/suzhou_bt"
+        android:layout_alignBottom="@+id/suzhou_bt" />
+
+    <Button
+        android:id="@+id/xian_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="西安"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_below="@+id/chengdu_bt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/taiyuan_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="太原"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_below="@+id/changsha_bt"
+        android:layout_toRightOf="@+id/chongqing_bt"
+        android:layout_toEndOf="@+id/chongqing_bt" />
+
+    <Button
+        android:id="@+id/qingdao_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="青岛"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_above="@+id/chongqing_bt"
+        android:layout_toRightOf="@+id/chengdu_bt"
+        android:layout_toEndOf="@+id/chengdu_bt" />
+
+    <Button
+        android:id="@+id/chongqing_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="重庆"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_alignBottom="@+id/tianjin_bt"
+        android:layout_toRightOf="@+id/shenyang_bt"
+        android:layout_toEndOf="@+id/shenyang_bt"
+        android:layout_below="@+id/xian_bt" />
+
+    <Button
+        android:id="@+id/shijiazhuang_bt"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="石家庄"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_below="@+id/hangzhou_bt"
+        android:layout_toRightOf="@+id/tianjin_bt"
+        android:layout_toEndOf="@+id/tianjin_bt" />
+
+    <Button
+        android:id="@+id/nanning_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="南宁"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_below="@+id/shijiazhuang_bt"
+        android:layout_toRightOf="@+id/tianjin_bt"
+        android:layout_toEndOf="@+id/tianjin_bt" />
+
+    <Button
+        android:id="@+id/chengdu_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="成都"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_below="@+id/foshang_bt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/changsha_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="长沙"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_above="@+id/qingdao_bt"
+        android:layout_toRightOf="@+id/xian_bt"
+        android:layout_toEndOf="@+id/xian_bt" />
+
+    <Button
+        android:id="@+id/foshang_bt"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="佛山"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_below="@+id/location_bt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/search_my_cities"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:text="我添加的城市"
+        android:textSize="15dp"
+        android:background="@drawable/layer_list_view"
+
+        android:layout_below="@+id/tianjin_bt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/nanning_bt"
+        android:layout_toStartOf="@+id/nanning_bt" />
+
+</RelativeLayout>

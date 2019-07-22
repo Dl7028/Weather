@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TableLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/background_light"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp">
+
+                    <!--第一行 第一列 文字-->
+                    <TextView
+                        android:id="@+id/no2_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/cloth_iv"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:text="48"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="二氧化氮"
+                        android:textSize="10dp"
+                        android:layout_below="@+id/no2_tv"
+                        android:gravity="center"
+                        android:layout_centerHorizontal="true"
+
+                        android:paddingTop="5dp"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+                    android:background="@android:color/background_light"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/so2_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/cloth_iv"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:text="6"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="二氧化硫"
+                        android:textSize="10dp"
+                        android:layout_below="@+id/so2_tv"
+                        android:gravity="center"
+                        android:layout_centerHorizontal="true"
+                        android:paddingTop="5dp"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+                    android:background="@android:color/background_light"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp">
+
+                    <!--第一行 第一列 文字-->
+                    <TextView
+                        android:id="@+id/pm2.5_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:text="16"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PM2.5"
+                        android:textSize="10dp"
+                        android:layout_below="@+id/pm2.5_tv"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+
+                <RelativeLayout
+                    android:id="@+id/Re_cloth"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/background_light"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp">
+
+                    <!--第一行 第一列 文字-->
+                    <TextView
+                        android:id="@+id/o3_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/cloth_iv"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:text="48"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="臭氧"
+                        android:textSize="10dp"
+                        android:layout_below="@+id/o3_tv"
+                        android:gravity="center"
+                        android:layout_centerHorizontal="true"
+
+                        android:paddingTop="5dp"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+                    android:background="@android:color/background_light"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/co_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/cloth_iv"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:text="0.682"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="一氧化碳"
+                        android:textSize="10dp"
+                        android:layout_below="@+id/co_tv"
+                        android:gravity="center"
+                        android:layout_centerHorizontal="true"
+                        android:paddingTop="5dp"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+                    android:background="@android:color/background_light"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp">
+
+                    <!--第一行 第一列 文字-->
+                    <TextView
+                        android:id="@+id/pm10_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:text="35"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PM10"
+                        android:textSize="10dp"
+                        android:layout_below="@+id/pm10_tv"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        />
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

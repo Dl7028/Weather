@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="350dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        >
+        <TableRow>
+
+
+                <TextView
+                    android:id="@+id/air_quality_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#f0ffff"
+                    android:textSize="20dp"
+                    android:text="空气优"
+
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginStart="11dp"
+                    android:gravity="end"
+                    android:layout_gravity="center_vertical"
+                    android:layout_alignParentBottom="true" />
+
+                <TextView
+                    android:id="@+id/air_aqi_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="16"
+                    android:textSize="20dp"
+                    android:textColor="#f0ffff"
+
+                    android:gravity="start"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="体感温度"
+                android:textColor="#f0ffff"
+                android:textSize="20dp"
+
+                android:gravity="end"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                    android:id="@+id/feels_like_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="26"
+                    android:gravity="start"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:textColor="#f0ffff"
+                    android:layout_gravity="center_vertical"
+                    />
+
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
